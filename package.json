@@ -66,7 +66,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-css": "npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch"
+    "watch-css": "npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch",
+    "build" :"vite build"
   },
   "author": "",
   "license": "ISC",
